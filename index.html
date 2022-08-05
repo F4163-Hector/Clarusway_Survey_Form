@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Clarusway Survey Form</h1><br>
+    <h3>Thank you for taking the time to help us improve th platform</h3>
+
+    <div class="contanier">
+      <form action="result.html" method="get">
+        <div class="div1">
+          <label class="label1" for="name">Name</label><br />
+          <input
+            class="inputs"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+          /><br /><br />
+          <label class="label1" for="surname">Surname</label><br />
+          <input
+            class="inputs"
+            type="text"
+            name="surname"
+            id="surname"
+            placeholder="Enter your surname"
+          /><br /><br />
+          <label class="label1" for="Email">Email</label><br />
+          <input
+            class="inputs"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          /><br /><br>
+        </div>
+
+        <div class="div2">
+          <p>Which option best describes your current role?</p><br>
+          
+          <select class="selects">
+            <option value="none" selected disabled>Select current role</option>
+            <option value="Students">Students</option>
+            <option value="Full-time job">Full-time job</option>
+            <option value="Part-time job">Part-time job</option>
+            <option value="Full-time learner">Full-time learner</option>
+            <option value="Prefer not to say">Prefer not to say</option></select
+          ><br><br>
+        </div>
+
+        <div class="div3">
+          <p>Would you recommend Clarusway to a friend?</p><br>
+          
+          <input type="radio" name="recommend" id="yes" value="yes" />
+          <label class="label1" for="yes">Definitely, Yes</label><br />
+
+          <input type="radio" name="recommend" id="maybe" value="maybe" />
+          <label class="label1" for="maybe">Maybe</label><br />
+
+          <input type="radio" name="recommend" id="notsure" value="notsure" />
+          <label class="label1" for="notsure">Not sure</label><br />
+
+          <input type="radio" name="recommend" id="no" value="no" />
+          <label class="label1" for="no">Definitely, No</label><br><br>
+        </div>
+
+        <div class="div4">
+          <p>What is your favorite feature of Clarusway?</p><br>
+        
+          <select class="selects">
+            <option value="none" selected disabled>Select an option</option>
+            <option value="Courses">Courses</option>
+            <option value="Projects">Projects</option>
+            <option value="Community">Community</option>
+            <option value="Mentors">Mentors</option></select
+          ><br><br>
+        </div>
+
+        <div class="div5">
+          <p>What would you like to see improved? (Check all that apply)</p><br>
+        
+          <input
+            type="checkbox"
+            name="frontend"
+            id="frontend"
+            value="frontend"
+          />
+          <label class="label1" for="frontend">Front-end Projects</label><br />
+
+          <input type="checkbox" name="backend" id="backend" value="backend" />
+          <label class="label1" for="backend">Back-end Projects</label><br />
+
+          <input
+            type="checkbox"
+            name="datascience"
+            id="datascience"
+            value="datascience"
+          />
+          <label class="label1" for="datascience">Data Science</label><br />
+
+          <input
+            type="checkbox"
+            name="aditinonalcourses"
+            id="aditinonalcourses"
+            value="aditinonalcourses"
+          />
+          <label for="aditinonalcourses">Aditinonal Courses</label
+          ><br /><br />
+        </div>
+
+        <div class="div6">
+          <textarea
+            name=""
+            id=""
+            cols="42"
+            rows="15"
+            placeholder="Enter your commet here..."
+            
+          ></textarea
+          ><br /><br />
+        </div>
+
+        <div class="button">
+          <input id="submit1" type="submit" value="Submit" />
+          <input id="reset1" type="reset" value="Reset" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
